@@ -1,0 +1,102 @@
+# Site settings
+title: RobotCodeLab
+email: jwore@ncsu.edu
+description: RobotCodeLab @ NC State
+baseurl: ""
+  #url: ""
+url: "https://robotcodelab.com"
+
+
+# Google analytics ID: Remove or use your own!
+# google_analytics: UA-167467135-1
+# google_analytics_4: G-02KDGRRB2T
+# google_tag_manager: GTM-TZ9Z7HZ
+
+# Footer info
+affiliation: >
+    Dr. John-Paul Ore<br/>
+    Assistant Professor<br/>
+    <a href="http://csc.ncsu.edu/" target="_blank">Computer Science</a><br/>
+    North Carolina State University
+
+location: >
+  <a href="https://www.csc.ncsu.edu/people/jwore" target="_blank">RobotCodeLab EB-II 2250 & EB-II 3228</a><br/>
+    Department of Computer Science<br/>
+    College of Engineering<br/>
+    Campus Box 8206<br/>
+    890 Oval Drive<br/>
+    Engineering Building II<br/>
+    Raleigh, NC 27695
+
+contact: >
+    <a href="mailto:jwore@ncsuedu" target="_blank"><i class="fa fa-envelope fa-1x"></i> Contact John-Paul via email</a> <br/>
+
+# Pages shown in navbar
+nav_pages:
+  - name: team
+  - name: projects
+  - name: publications
+  - name: about
+  # - name: research
+  # - name: software
+  # - name: teaching
+
+include:
+  - .htaccess
+  - _pages
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+  parse_block_html: true # default for kramdown is false. This will enable using Markdown links
+
+
+plugins: ['jekyll/scholar']
+
+scholar:
+
+  last_name: Ore
+  first_name: [John-Paul]
+
+  style: shb
+  locale: en
+
+  source: /cv/
+  bibliography: ref.bib
+  bibliography_template: bibtemplate
+  sort_by: year, month
+  order: descending
+
+  replace_strings: true
+  join_strings: true
+
+  details_dir: bibliography
+  details_layout: bibtex.html
+  details_link: Details
+
+  query: "@*"
+
+  bibliography_list_attributes:
+    reversed: "reversed"
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - update_boostrap.sh
+  - switch_theme.sh
+  - tags
+  - Rakefile

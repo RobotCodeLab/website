@@ -1,0 +1,14 @@
+- name: Dr. John-Paul Ore
+  photo: headshot-jpo.jpg
+  info: Assistant Professor, North Carolina State University
+  email: jwore@ncsu.edu
+  github: https://github.com/robotcodelab
+  scholar: https://scholar.google.com/citations?user=q7jnx5IAAAAJ
+  cv: cv/cv.pdf
+  number_educ: 3
+  education1: (2015-9 ) Ph.D. Computer Science and Engineering<br> Nebraska (with <a href="https://nimbus.unl.edu/" target="_blank">the Nimbus Lab</a> Co-Advised by Sebastian Elbaum and Carrick Detweiler)
+  education2: (2012-5) M.S. Computer Science and Engineering<br> Nebraska (with <a href="https://nimbus.unl.edu/" target="_blank">the Nimbus Lab</a>)
+  education3: (1992-6) B.A. Philosophy <br> <a href="https://uchicago.edu" target="_blank">University of Chicago</a>
+  education1short: (2015-9 ) Ph.D, Nebraska 
+  education2short: (2012-5) M.S., Nebraska
+  education3short: (1992-6) B.A., UChicago

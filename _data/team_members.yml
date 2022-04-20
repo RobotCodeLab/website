@@ -1,0 +1,35 @@
+- name: Samuel Hodges
+  photo: samuel.jpg
+  info: Ph.D. Student, started Fall 2020
+  number_educ: 1
+  education1: B.S. UNC Ashville
+  education2:   
+  education3:
+  education4:
+
+- name: Azeeza Eagal
+  photo: azeeza.jpg
+  info: Ph.D. Student, started Fall 2021
+  number_educ: 1
+  education1: B.S. Truman State University
+  education2:   
+  education3:
+  education4:
+
+- name: Colin Moore
+  photo: colin.jpg
+  info: Ph.D. Student, started Fall 2021
+  number_educ: 1
+  education1: B.S./M.S. Computer Science, NC State 
+  education2:   
+  education3:
+  education4:
+
+- name: Shilpa Kancharla
+  photo: shilpa.jpg
+  info: M.S. Student, started Fall 2020
+  number_educ: 1
+  education1: B.S Applied Mathematics, UNC Chapel-Hill 
+  education2:   
+  education3:
+  education4:

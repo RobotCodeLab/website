@@ -1,0 +1,17 @@
+- name: Vivek Rathi 
+  photo: vivek.jpg
+  info: <a href="https://en.wikipedia.org/wiki/Amazon_Lab126">Amazon 126 R&D Lab</a>
+  number_educ: 1
+  education1: M.S. Computer Engineering, NC State 2021 
+  education2:   
+  education3:
+  education4:
+
+- name: Jacob (Jake) Keller
+  photo: jake.jpg
+  info: <a href="https://nauticusrobotics.com/">Nauticus Robotics</a>
+  number_educ: 1
+  education1: M.S. Computer Engineering, NC State 2021 
+  education2:   
+  education3:
+  education4:
