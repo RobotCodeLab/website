@@ -26,7 +26,7 @@ Testing the software that interacts with robot sensors and actuators is really h
 
 #### Robot Representation in Software
 
-  <img src="{{ site.url }}{{ site.baseurl }}/images/media/lambda-at-dix-park-sm.jpg" class="img-responsive" width="50%" style="float: right; padding-left: 10px;" />
+  <img src="{{ site.url }}{{ site.baseurl }}/images/media/lambda-at-dix-park-sm.JPG" class="img-responsive" width="50%" style="float: right; padding-left: 10px;" />
 Robot software contains representations of a robots geometry --- where the different parts are in space and how their hooked together.   This can be hard to developers to modify and comprehend.  This project seeks to find the key barriers specific to robot system developers so we can build tools to help developers build better software faster.
 
 
