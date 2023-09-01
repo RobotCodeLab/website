@@ -7,4 +7,4 @@ gem "sassc", ">2.0.1"
 gem "kramdown-parser-gfm"
 gem 'jekyll-scholar'
 
-gem "webrick", "~> 1.7"
+gem "webrick", "> 1.7"
